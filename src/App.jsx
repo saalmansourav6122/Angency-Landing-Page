@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection";
 import Pricing from "./components/Pricing";
 import ServiceOne from "./components/ServiceOne";
 import ServiceTwo from "./components/ServiceTwo";
+import Trial from "./components/Trial";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonial />
       <Pricing />
       <Faq />
+      <Trial />
     </>
   );
 }

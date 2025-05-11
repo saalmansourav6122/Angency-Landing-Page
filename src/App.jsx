@@ -1,5 +1,6 @@
 import "./App.css";
 import CompaniesLogo from "./components/CompaniesLogo";
+import Testimonial from "./components/componentOfSvg/Testimonial";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ServiceOne from "./components/ServiceOne";
@@ -13,6 +14,7 @@ function App() {
       <CompaniesLogo />
       <ServiceOne />
       <ServiceTwo />
+      <Testimonial />
     </>
   );
 }

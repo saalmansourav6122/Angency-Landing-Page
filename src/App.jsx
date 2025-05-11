@@ -3,6 +3,7 @@ import CompaniesLogo from "./components/CompaniesLogo";
 import Testimonial from "./components/componentOfSvg/Testimonial";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import Pricing from "./components/Pricing";
 import ServiceOne from "./components/ServiceOne";
 import ServiceTwo from "./components/ServiceTwo";
 
@@ -15,6 +16,7 @@ function App() {
       <ServiceOne />
       <ServiceTwo />
       <Testimonial />
+      <Pricing />
     </>
   );
 }

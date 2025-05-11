@@ -3,6 +3,7 @@ import CompaniesLogo from "./components/CompaniesLogo";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ServiceOne from "./components/ServiceOne";
+import ServiceTwo from "./components/ServiceTwo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <CompaniesLogo />
       <ServiceOne />
+      <ServiceTwo />
     </>
   );
 }

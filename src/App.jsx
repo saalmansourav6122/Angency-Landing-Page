@@ -2,6 +2,7 @@ import "./App.css";
 import CompaniesLogo from "./components/CompaniesLogo";
 import Testimonial from "./components/componentOfSvg/Testimonial";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Pricing from "./components/Pricing";
@@ -21,6 +22,7 @@ function App() {
       <Pricing />
       <Faq />
       <Trial />
+      <Footer />
     </>
   );
 }

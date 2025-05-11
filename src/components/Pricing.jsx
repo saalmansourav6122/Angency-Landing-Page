@@ -38,7 +38,7 @@ function Pricing() {
               and capital can unlock long-term value and drive economic growth.
             </p>
           </div>
-          <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             <PriceCard
               title="Starter"
               discp="Best option for personal use & for your next project."

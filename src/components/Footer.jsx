@@ -37,18 +37,18 @@ function Footer() {
   return (
     <>
       {" "}
-      <footer class="bg-white dark:bg-gray-800">
-        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-          <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+      <footer className="bg-white dark:bg-gray-800">
+        <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
             {sections.map((sections, index) => (
               <div key={sections + index}>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   {sections.title}
                 </h3>
-                <ul class="text-gray-500 dark:text-gray-400">
+                <ul className="text-gray-500 dark:text-gray-400">
                   {sections.links.map((link, linkIndex) => (
-                    <li class="mb-4" key={link + linkIndex}>
-                      <a href="#" class=" hover:underline">
+                    <li className="mb-4" key={link + linkIndex}>
+                      <a href="#" className=" hover:underline">
                         {link}
                       </a>
                     </li>
@@ -57,33 +57,33 @@ function Footer() {
               </div>
             ))}
           </div>
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
-          <div class="text-center">
+          <div className="text-center">
             <a
               href="#"
-              class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
+              className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
             >
               <img
                 src={img}
-                class="h-6 mr-3 sm:h-9"
+                className="h-6 mr-3 sm:h-9"
                 alt="Learn with Sumit Logo"
               />
               Learn with Sumit{" "}
             </a>
-            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">
+            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
               © 2024-2025 Learn with Sumit. All Rights Reserved. Built with{" "}
               <a
                 href="#"
                 target="_blank"
-                class="text-purple-600 hover:underline dark:text-purple-500"
+                className="text-purple-600 hover:underline dark:text-purple-500"
               >
                 Flowbite
               </a>{" "}
               and{" "}
               <a
                 href="#"
-                class="text-purple-600 hover:underline dark:text-purple-500"
+                className="text-purple-600 hover:underline dark:text-purple-500"
               >
                 Tailwind CSS
               </a>

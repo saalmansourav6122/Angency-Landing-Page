@@ -15,8 +15,8 @@ function Faq() {
             <div
               id="accordion-flush"
               data-accordion="collapse"
-              data-active-classNamees="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
-              data-inactive-classNamees="text-gray-500 dark:text-gray-400"
+              data-active-class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+              data-inactive-class="text-gray-500 dark:text-gray-400"
             >
               <h3 id="accordion-flush-heading-1">
                 <button
@@ -85,7 +85,7 @@ function Faq() {
                     >
                       Figma design system
                     </a>
-                    based on the utility classNamees from Tailwind CSS and
+                    based on the utility className from Tailwind CSS and
                     components from Landwind.
                   </p>
                 </div>

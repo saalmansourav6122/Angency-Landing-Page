@@ -1,6 +1,6 @@
 import "./App.css";
 import CompaniesLogo from "./components/CompaniesLogo";
-import Testimonial from "./components/componentOfSvg/Testimonial";
+import Testimonial from "./components/Testimonial";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

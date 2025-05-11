@@ -8,7 +8,7 @@ function Inter() {
         className="w-5 h-5"
         fill="currentColor"
         viewBox="0 0 24 24"
-        ariaHidden="true"
+        aria-hidden="true"
       >
         <path
           fillRule="evenodd"

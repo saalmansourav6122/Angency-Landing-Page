@@ -4,7 +4,7 @@ function ArrowDown() {
   return (
     <>
       <svg
-        dataAccordion-icon=""
+        data-accordion-icon=""
         className="w-6 h-6 shrink-0"
         fill="currentColor"
         viewBox="0 0 20 20"

@@ -1,9 +1,8 @@
 import React from "react";
 
-function MIllion() {
+function Million() {
   return (
     <>
-      {" "}
       <svg
         className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
         fill="currentColor"
@@ -16,4 +15,4 @@ function MIllion() {
   );
 }
 
-export default MIllion;
+export default Million;

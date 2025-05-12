@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import img from "/src/assets/logo.svg";
 
 function Header() {
   const myStyle =
@@ -9,11 +10,7 @@ function Header() {
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="#" className="flex items-center">
-            <img
-              src="/src/assets/logo.svg"
-              className="h-6 mr-3 sm:h-9"
-              alt="Landwind Logo"
-            />
+            <img src={img} className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Learn with Sumit
             </span>

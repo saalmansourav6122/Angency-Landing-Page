@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import ViewOnGitHub from "./componentOfSvg/ViewOnGitHub";
 import GetFigmaFile from "./componentOfSvg/GetFigmaFile";
+import img from "/src/assets/hero.png";
 
 function HeroSection() {
   const ViewonGitHub =
@@ -42,7 +43,7 @@ function HeroSection() {
             </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/src/assets/hero.png" alt="hero image" />
+            <img src={img} alt="hero image" />
           </div>
         </div>
       </section>

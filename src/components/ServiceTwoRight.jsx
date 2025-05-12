@@ -25,6 +25,7 @@ function ServiceTwoRight({}) {
           digit=" 100+ countries"
           para="  Have used Landwind to create functional websites"
         />
+
         <ServiceTwoRighChild
           icon={<Million />}
           digit="5+ Million"

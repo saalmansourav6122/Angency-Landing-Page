@@ -1,6 +1,6 @@
 import React from "react";
 
-function Million() {
+export default function Million() {
   return (
     <>
       <svg
@@ -14,5 +14,3 @@ function Million() {
     </>
   );
 }
-
-export default Million;

@@ -3,7 +3,7 @@ import ServiceTwoRighChild from "./ServiceTwoRighChild";
 import Uptime from "./componentOfSvg/Uptime";
 import User from "./componentOfSvg/User";
 import Country from "./componentOfSvg/Country";
-import Million from "./componentOfSvg/Million";
+// import Million from "./componentOfSvg/Million";
 
 function ServiceTwoRight({}) {
   return (
@@ -26,11 +26,11 @@ function ServiceTwoRight({}) {
           para="  Have used Landwind to create functional websites"
         />
 
-        <ServiceTwoRighChild
+        {/* <ServiceTwoRighChild
           icon={<Million />}
           digit="5+ Million"
           para="Transactions per day"
-        />
+        /> */}
       </div>
     </>
   );
